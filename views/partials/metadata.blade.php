@@ -3,7 +3,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <![endif]-->
-<link rel="shortcut icon" href="{{ Theme::url('favicon.ico') }}">
+<link rel="shortcut icon" href="{{ Theme::url('images/favicon.ico') }}">
 
 <!-- CSS begin -->
 <!-- Bootstrap -->

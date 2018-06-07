@@ -9,6 +9,7 @@
 @section('blog-content')
     @foreach($posts as $post)
         @include('blog::partials._post')
+        @unset($post)
     @endforeach
     {!! $posts->render('partials.components.pagination') !!}
 @endsection

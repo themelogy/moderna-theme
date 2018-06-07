@@ -22,12 +22,11 @@
         </div>
     </div>
 
-    @if(isset($post))
-    @blogTags($post, 5)
-    @elseif(isset($posts))
-        @foreach($posts as $post)
-            @blogTags($post, 1)
-        @endforeach
-    @endif
+    @isset($post)
+        @blogTags($post, 5)
+    @endisset
+    @isset($posts)
+        @blogTags($post, 5)
+    @endisset
 
 </div>

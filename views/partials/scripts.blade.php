@@ -28,10 +28,6 @@
 
 <!-- SEARCH  SCRIPT IN MAIN JS  -->
 
-<!--GOOLE MAP-->
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=INSERT-YOUR-API-KEY-HERE"></script>
-{!! Theme::script('js/gmap3.min.js') !!}
-
 <!-- Magnific popup -->
 {!! Theme::script('js/jquery.magnific-popup.js') !!}
 

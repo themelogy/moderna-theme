@@ -564,10 +564,6 @@ if ( typeof define === 'function' && define.amd ) {
 
 } )( window );
 
-// ---END UI SEARCH -----------------------------------------------------------
-
-new UISearch( document.getElementById( 'sb-search' ) );
-
 // END SEARCH ---------------------------------------------------------------------
 
 
