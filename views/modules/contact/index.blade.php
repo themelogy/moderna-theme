@@ -69,7 +69,7 @@
 
     <!-- Google Maps -->
     <div id="contact-link" class="google-map-container-footer" style="height: 350px;">
-        @gmap('300px', '16', 'images/marker.png')
+        @include('contact::map')
     </div>
     <!-- Google Maps / End -->
 @endsection
