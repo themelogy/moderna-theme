@@ -2,7 +2,7 @@
 
 @section('content')
     @themeSlide('anasayfa')
-    @pageChildren('iskele-sistemleri', 'home-children')
+    @findChildren('iskele-sistemleri', 'home-children')
     <div class="title-lines-container">
         <div class="container">
             <div class="row">

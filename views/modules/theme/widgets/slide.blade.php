@@ -95,7 +95,7 @@
     </div>
 </div>
 
-@pageChildren('iskele-sistemleri', 'children-slide', 3)
+@findChildren('iskele-sistemleri', 'children-slide', 3)
 
 @push('js-inline')
     <script>
